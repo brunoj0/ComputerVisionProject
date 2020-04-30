@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c37c452-4abb-4d2e-aefc-109c5738cb47" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bGYM0uk4CxXt8hLftCB6TUZAdV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="trafficSigns" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.pyenv/versions/3.7.0/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="readTrafficSigns" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="trafficSigns" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.pyenv/versions/3.7.0/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/readTrafficSigns.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.readTrafficSigns" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c37c452-4abb-4d2e-aefc-109c5738cb47" name="Default Changelist" comment="" />
+      <created>1588259846432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588259846432</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1704" y="-78" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588262374267">
+      <screen x="1280" y="-280" width="1920" height="1080" />
+    </state>
+    <state x="1704" y="-78" key="#com.intellij.execution.impl.EditConfigurationsDialog/1280.-280.1920.1080/0.0.1280.800@1280.-280.1920.1080" timestamp="1588262374267" />
+    <state width="1899" height="304" key="GridCell.Tab.0.bottom" timestamp="1588264518286">
+      <screen x="1280" y="-280" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="304" key="GridCell.Tab.0.bottom/1280.-280.1920.1080/0.0.1280.800@1280.-280.1920.1080" timestamp="1588264518286" />
+    <state width="1899" height="304" key="GridCell.Tab.0.center" timestamp="1588264518281">
+      <screen x="1280" y="-280" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="304" key="GridCell.Tab.0.center/1280.-280.1920.1080/0.0.1280.800@1280.-280.1920.1080" timestamp="1588264518281" />
+    <state width="1899" height="304" key="GridCell.Tab.0.left" timestamp="1588264518279">
+      <screen x="1280" y="-280" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="304" key="GridCell.Tab.0.left/1280.-280.1920.1080/0.0.1280.800@1280.-280.1920.1080" timestamp="1588264518279" />
+    <state width="1899" height="304" key="GridCell.Tab.0.right" timestamp="1588264518282">
+      <screen x="1280" y="-280" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="304" key="GridCell.Tab.0.right/1280.-280.1920.1080/0.0.1280.800@1280.-280.1920.1080" timestamp="1588264518282" />
+    <state x="2036" y="-114" key="SettingsEditor" timestamp="1588262755068">
+      <screen x="1280" y="-280" width="1920" height="1080" />
+    </state>
+    <state x="2036" y="-114" key="SettingsEditor/1280.-280.1920.1080/0.0.1280.800@1280.-280.1920.1080" timestamp="1588262755068" />
+    <state x="1933" y="92" key="com.intellij.ide.util.TipDialog" timestamp="1588259853729">
+      <screen x="1280" y="-280" width="1920" height="1080" />
+    </state>
+    <state x="1933" y="92" key="com.intellij.ide.util.TipDialog/1280.-280.1920.1080/0.0.1280.800@1280.-280.1920.1080" timestamp="1588259853729" />
+  </component>
+</project>
