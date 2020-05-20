@@ -5,6 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import hamming_loss, f1_score
 from sklearn.model_selection import train_test_split
 import os
+from sklearn.linear_model import SGDClassifier
 
 path = "myData"
 labelFile = 'labels.csv'
@@ -66,11 +67,17 @@ assert(X_test.shape[0]==y_test.shape[0]), "The number of images in not equal to 
 
 print("Train",end = "");print(X_train.shape,y_train.shape)
 
-clf = RandomForestClassifier(max_depth=2, random_state=0)
+clf = RandomForestClassifier()
 clf.fit(X_train, y_train)
 predictions = clf.predict(X_test)
 errors = abs(predictions - y_test)
 print(hamming_loss(y_test, predictions))
 print(f1_score(y_test, predictions, average='weighted'))
 print('Mean Absolute Error:', round(np.mean(errors), 2), 'degrees.')
+
+sgd_clf = SGDClassifier(random_state=42, max_iter=1000, tol=1e-3)
+sgd_clf.fit(X_train, y_train)
+predictions = sgd_clf.predict(X_test)
+print(hamming_loss(y_test, predictions))
+print(f1_score(y_test, predictions, average='weighted'))
 
