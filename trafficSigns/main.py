@@ -6,7 +6,8 @@ from sklearn.metrics import hamming_loss, f1_score
 from sklearn.model_selection import train_test_split
 import os
 from sklearn.linear_model import SGDClassifier
-
+from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score
 path = "myData"
 labelFile = 'labels.csv'
 testRatio = 0.25
@@ -32,7 +33,7 @@ for x in range (0,len(myList)):
         curImg = cv2.imread(path+"/"+str(count)+"/"+y)
         images.append(curImg)
         classNo.append(count)
-    print(count, end =" ")
+        print(myPicList)
     count +=1
 print(" ")
 images = np.array(images)
@@ -40,7 +41,7 @@ print(images[0])
 classNo = np.array(classNo)
 
 X_train, X_test, y_train, y_test = train_test_split(images, classNo, test_size=testRatio)
-
+print(y_test)
 def grayscale(img):
     img = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
     return img
@@ -71,13 +72,23 @@ clf = RandomForestClassifier()
 clf.fit(X_train, y_train)
 predictions = clf.predict(X_test)
 errors = abs(predictions - y_test)
-print(hamming_loss(y_test, predictions))
-print(f1_score(y_test, predictions, average='weighted'))
-print('Mean Absolute Error:', round(np.mean(errors), 2), 'degrees.')
+print('hamm', hamming_loss(y_test, predictions))
+print('f1', f1_score(y_test, predictions, average='weighted'))
+print('avcc', accuracy_score(y_test, predictions))
 
 sgd_clf = SGDClassifier(random_state=42, max_iter=1000, tol=1e-3)
 sgd_clf.fit(X_train, y_train)
 predictions = sgd_clf.predict(X_test)
-print(hamming_loss(y_test, predictions))
-print(f1_score(y_test, predictions, average='weighted'))
+
+print('hamm', hamming_loss(y_test, predictions))
+print('f1', f1_score(y_test, predictions, average='weighted'))
+print('avcc', accuracy_score(y_test, predictions))
+
+SVC = SVC()
+SVC.fit(X_train, y_train)
+predictions = SVC.predict(X_test)
+
+print('hamm',hamming_loss(y_test, predictions))
+print('f1',f1_score(y_test, predictions, average='weighted'))
+print('avcc', accuracy_score(y_test, predictions))
 
